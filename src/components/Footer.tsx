@@ -10,9 +10,9 @@ export default function Footer() {
           <div>
             <div className="flex items-center space-x-2 mb-6">
               <img 
-                src="/logo.svg" 
+                src="/elida-logo.png" 
                 alt="ÉLIDA" 
-                className="h-12 filter brightness-0 invert"
+                className="h-12 invert"
               />
             </div>
             <p className="text-gray-400">
@@ -103,11 +103,11 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* ✅ Google Maps Section with API Key */}
-        <div className="relative w-full h-[400px] rounded-xl overflow-hidden shadow-lg bg-gray-800">
+        {/* Google Maps Section */}
+        <div className="relative w-full h-[400px] rounded-xl overflow-hidden shadow-lg bg-gray-800 mb-8">
           <iframe
             className="absolute top-0 left-0 w-full h-full"
-            src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyBn7Y_mQTLtS0PqyyevggtfNW6CbbGHlfw&q=Vilniaus+g.+23A,+Panevezys`}
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3741.739796652015!2d24.368656577698104!3d55.727241893958706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e6321421e889d5%3A0x5e966abcd248574d!2zVmlsbmlhdXMgZy4gMjNBLCBQYW5ldsSXxb55cywgMzUyMDMgUGFuZXbEl8W-aW8gbS4gc2F2Lg!5e1!3m2!1sen!2slt!4v1740256043556!5m2!1sen!2slt"
             style={{ border: 0 }}
             allowFullScreen
             loading="lazy"

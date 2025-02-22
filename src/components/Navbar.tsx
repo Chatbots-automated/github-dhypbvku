@@ -45,10 +45,10 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-20">
           <Link to="/" className="flex items-center space-x-2 group">
             <img 
-              src="/logo.svg" 
+              src="/elida-logo.png" 
               alt="ÉLIDA" 
               className={`h-12 transition-all duration-300 ${
-                isScrolled ? '' : 'filter brightness-0 invert'
+                isScrolled ? '' : 'invert'
               }`}
             />
           </Link>
